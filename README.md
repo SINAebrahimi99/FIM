@@ -18,3 +18,13 @@ There are 4 main steps for this code :
 * Monitor and verify file integrity
   
 * Issue an alert in case of any changes
+
+## Code Review
+
+First, the user provides the path of the files they want to monitor `($filepath)`. 
+and check whether this path exists.
+
+Next, the user must choose a hashing algorithm from the available algorithms in PowerShell `$validAlgorithms`.
+
+("SHA1", "SHA256", "SHA384", "SHA512", "MD5").
+
