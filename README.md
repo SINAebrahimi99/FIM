@@ -76,7 +76,7 @@ there are 3 possible actions that might occur in case of changes :
 
 * Modifying existing files
   
-  in this case the output will be a yellow prompt that says "x has changed"
+  in this case the output will be a yellow prompt that says "x has changed!"
 
 * Deleting existing files
   
@@ -85,7 +85,22 @@ there are 3 possible actions that might occur in case of changes :
   
 * Adding new files
   
-  in this case the output will be a green prompt that says "x has changed"
+  in this case the output will be a green prompt that says "x has been created!"
+
+
+now i will change the `test1.txt` content to see the resutl:
+
+![yellow](https://github.com/user-attachments/assets/d6fe237d-4b13-454c-b4dc-d9c174ae1f32)
+
+for next lets create a new file :
+
+![green](https://github.com/user-attachments/assets/82e7606e-6100-4f94-81cf-2e9aefc1ab72)
+
+and for the last lets delete some file :
+
+![red](https://github.com/user-attachments/assets/1511e5c1-2e5a-4688-bd91-a8ea5ba6da6d)
+
+it looks like everything is fine!
 
 
 
