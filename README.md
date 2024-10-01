@@ -1,8 +1,8 @@
 # FIM
 File Integrity Monitor 👁
 
-## What is this Repo?
-Its a powershell script that act as a FIM (file integrity monitor)
+## Intro
+a powershell script that act as a FIM (file integrity monitor)
 
 File integrity monitoring is a security process that monitors and analyzes the integrity of critical assets.
 
