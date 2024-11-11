@@ -19,7 +19,7 @@ There are 4 main steps for this code :
   
 * Issue an alert in case of any changes
 
-  more details in next part :
+  more details  in next part :
 
 ## Example Test 
 I have a folder named "file to monitor" and it contains 3 .txt files :
