@@ -2,7 +2,7 @@
 File Integrity Monitor 👁
 
 ## Intro
-a simple powershell script that act as a FIM (file integrity monitor)
+a simple powershell script [FIM.ps1](FIM.ps1) that act as a FIM (file integrity monitor)
 
 **File integrity monitoring** is a security **process** that **monitors** and analyzes the **integrity** of critical assets.
 
