@@ -2,9 +2,9 @@
 File Integrity Monitor 👁
 
 ## Intro
-a powershell script that act as a FIM (file integrity monitor)
+a simple powershell script that act as a FIM (file integrity monitor)
 
-File integrity monitoring is a security process that monitors and analyzes the integrity of critical assets.
+**File integrity monitoring** is a security **process** that **monitors** and analyzes the **integrity** of critical assets.
 
 This script is designed to watch your files and alert you if they are modified or any changes.
 
@@ -26,8 +26,7 @@ I have a folder named "file to monitor" and it contains 3 .txt files :
 
 ![files to monitor](https://github.com/user-attachments/assets/cb9f93e3-a5ae-4065-8c13-f8bdb6bc5c67)
 
-
-Let's run the script.
+running the script.
 
 The first input is the path of the files that we want to monitor. so i will run the code and pass the path as the first input :
 
@@ -42,20 +41,20 @@ A for creating new baseline and B for start monitoring with existing baseline.
 ![A or B](https://github.com/user-attachments/assets/8cab0def-32f4-4340-841c-c1f452b49a4a)
 
 
-i choose 'A' to create the baseline of my files.
+Selecting 'A' to create the baseline of my files.
 
 The next step is to choose which Hashing Algorithm you want to use.
 
 There are 4 algorithms available in powershell: SHA1, SHA256, SHA384, and SHA512.
 
-(i recommend choosing SHA512 for the best security experience! )
+(i recommend choosing SHA512 for the best security experience)
 
 after choosing algorithm the baseline is created : 
 
 
 ![choosed algo](https://github.com/user-attachments/assets/4a8b9651-de7c-4bc8-8f18-29442305287a)
 
-lets check the baseline :
+checking the baseline :
 
 
 ![chech baseline](https://github.com/user-attachments/assets/48a9bad4-568f-4419-9b28-2c88d7bf7b23)
@@ -96,11 +95,11 @@ for next lets create a new file :
 
 ![green](https://github.com/user-attachments/assets/82e7606e-6100-4f94-81cf-2e9aefc1ab72)
 
-and for the last lets delete some file :
+and for the last delete some file :
 
 ![red](https://github.com/user-attachments/assets/1511e5c1-2e5a-4688-bd91-a8ea5ba6da6d)
 
-it looks like everything is fine!
+
 
 
 
