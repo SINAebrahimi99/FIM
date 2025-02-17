@@ -21,6 +21,24 @@ There are 4 main steps for this code :
 
   more details  in next part :
 
+### 1. Get the Path of the Files We Want to Monitor
+
+
+```powershell
+$folderPath = Read-Host -Prompt "Please enter the path"
+```
+
+
+
+
+
+
+
+
+
+
+  
+
 ## Example Test 
 I have a folder named "file to monitor" and it contains 3 .txt files :
 
